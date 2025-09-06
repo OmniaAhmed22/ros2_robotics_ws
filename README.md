@@ -3,7 +3,9 @@ In this project, a differential-drive robot is controlled via the keyboard.
 The keyboard provides the robot’s center velocity, and the kinematic model computes and publishes the corresponding wheel joint speeds.
 The movement is simulated in Gazebo, with launch files created for both the controller and the keyboard.
 
-[![Watch the video](https://www.youtube.com/watch?v=https://youtu.be/q4IU0VDno98)
+[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=https://youtu.be/q4IU0VDno98)
+
+
 
 
 Project#2 Diff_robot_broadcast_odometry
