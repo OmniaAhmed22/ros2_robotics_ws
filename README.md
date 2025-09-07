@@ -26,6 +26,12 @@ In this project, we compare ideal controllers with real controllers, accounting 
 
 [![Watch the video](https://img.youtube.com/vi/tZAHXG23HeA/0.jpg)](https://www.youtube.com/watch?v=tZAHXG23HeA)
 
+---------------------------------------------------------------------------------------
+
+© Parts of this project (STL files and base code) are from the Self-Driving Robot course by Antonio Brandi. This repo contains my applications and modifications expanding on those tasks.
+
+
+
 
 
 
