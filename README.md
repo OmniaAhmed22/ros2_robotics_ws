@@ -2,9 +2,11 @@ Project#0 Diff_robot_project_To_Goal
 
 In this project, a differential-drive robot is controlled by two linear PID controllers to reach a specified goal. 
 The controllers publish the robot’s linear and angular velocities based on the error.
- The movement is simulated in Gazebo, with the goal represented as a black box at the target coordinates (x, y).
+The movement is simulated in Gazebo, with the goal represented as a black box at the target coordinates (x, y).
+Path of motion displayed in Rviz2
 
-[![Watch the video](https://img.youtube.com/vi/3e7qDgFy_s0/0.jpg)](https://www.youtube.com/watch?v=3e7qDgFy_s0)
+[![Watch the video](https://img.youtube.com/vi/3e7qDgFy_s0/0.jpg)](https://www.youtube.com/watch?v=3e7qDgFy_s0) [![Watch the video](https://img.youtube.com/vi/WFpXSLxDRkA/0.jpg)](https://www.youtube.com/watch?v=WFpXSLxDRkA)
+
 
 
 
