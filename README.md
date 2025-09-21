@@ -2,7 +2,9 @@ Project# Robot Path Planning: Navigating Obstacles to Reach the Goal
 
 A mobile robot is simulated in CoppeliaSim to navigate with obstacle avoidance using vision sensor.
 The robot then uses the A* algorithm on the environment map to plan the shortest path and successfully reach the goal.
+
 [![Watch the video](https://img.youtube.com/vi/8dqdKIAyHUc/0.jpg)](https://www.youtube.com/watch?v=8dqdKIAyHUc)
+
 
 
 
