@@ -1,3 +1,14 @@
+Project#0 Diff_robot_project_To_Goal
+
+In this project, a differential-drive robot is controlled by two linear PID controllers to reach a specified goal. 
+The controllers publish the robot’s linear and angular velocities based on the error.
+ The movement is simulated in Gazebo, with the goal represented as a black box at the target coordinates (x, y).
+
+[![Watch the video](https://img.youtube.com/vi/3e7qDgFy_s0/0.jpg)](https://www.youtube.com/watch?v=3e7qDgFy_s0)
+
+
+
+
 Project#1 Diff_robot_keyboard_move_and_publish_pose
 In this project, a differential-drive robot is controlled via the keyboard.
 The keyboard provides the robot’s center velocity, and the kinematic model computes and publishes the corresponding wheel joint speeds.
