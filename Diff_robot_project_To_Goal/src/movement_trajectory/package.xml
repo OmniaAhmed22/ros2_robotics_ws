@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>movement_trajectory</name>
+  <version>0.0.0</version>
+  <description>(trajectory publisher, broadcasting frames odom).</description>
+
+  <!-- Maintainer info -->
+  <maintainer email="Oyoussef@nu.edu.eg">Omnia A.Youssef</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Build tool dependency -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- Runtime dependencies -->
+  <depend>rclpy</depend>
+  <depend>nav_msgs</depend>
+  <depend>geometry_msgs</depend>
+  
+
+  <!-- For visualization in RViz  -->
+  <exec_depend>rviz2</exec_depend>
+
+  <!-- Testing (optional) -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
