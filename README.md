@@ -1,4 +1,9 @@
-Project#0 Diff_robot_project_To_Goal
+A mobile robot is simulated in CoppeliaSim to navigate with obstacle avoidance using vision sensor.
+The robot then uses the A* algorithm on the environment map to plan the shortest path and successfully reach the goal.
+[![Watch the video](https://img.youtube.com/vi/WFpXSLxDRkA/0.jpg)](https://www.youtube.com/watch?v=WFpXSLxDRkA)
+
+
+Project# Diff_robot_project_To_Goal
 
 In this project, a differential-drive robot is controlled by two linear PID controllers to reach a specified goal. 
 The controllers publish the robot’s linear and angular velocities based on the error.
@@ -11,7 +16,7 @@ Path of motion is displayed in Rviz2
 
 
 
-Project#1 Diff_robot_keyboard_move_and_publish_pose
+Project# Diff_robot_keyboard_move_and_publish_pose
 
 In this project, a differential-drive robot is controlled via the keyboard.
 The keyboard provides the robot’s center velocity, and the kinematic model computes and publishes the corresponding wheel joint speeds.
@@ -22,22 +27,20 @@ The movement is simulated in Gazebo, with launch files created for both the cont
 
 
 
-Project#2 Diff_robot_broadcast_odometry
+Project# Diff_robot_broadcast_odometry
 
 In this project, a differential-drive robot is controlled via the keyboard. The keyboard supplies the robot’s center velocity, and the kinematic model computes and publishes the corresponding wheel joint speeds. Encoder readings are used to estimate the robot’s new position, orientation, and linear and angular velocities from changes in wheel rotation. These updated values are published as odometry and TF messages for display in RViz2.
 
 [![Watch the video](https://img.youtube.com/vi/UcaGSv46jUI/0.jpg)](https://www.youtube.com/watch?v=UcaGSv46jUI)
 
-
-
-Project#3 Diff_robot_draw_movement_trajectory
+Project# Robot Path Planning: Navigating Obstacles to Reach the Goal
 
 In this project, a differential-drive robot is controlled via the keyboard. The keyboard provides the robot’s center velocity, and the kinematic model computes and publishes the wheel joint speeds. Encoder readings estimate the robot’s new pose and velocities from wheel rotations. These odometry updates are published for another node to draw the corresponding trajectory in RViz2.
 
 [![Watch the video](https://img.youtube.com/vi/qSpBzqmqf5w/0.jpg)](https://www.youtube.com/watch?v=qSpBzqmqf5w)
 
 
-Project#4 Drift due to_sensor_noise
+Project# Drift due to_sensor_noise
 
 In this project, we compare ideal controllers with real controllers, accounting for encoder noise and dimensional errors, and display them as two separate TFs in RViz2, along with noise visualization in PlotJuggler.
 
