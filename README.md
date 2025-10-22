@@ -1,4 +1,13 @@
-Project# Robot Path Planning: Navigating Obstacles to Reach the Goal
+Diff_robot_project_SLAM_Mapping
+
+A quick demonstration of ROS2 SLAM Toolbox in action! Differential drive robot performs real-time mapping using LiDAR and 
+publishes the resulting map to RViz2.
+See how the robot builds its environment map dynamically and stores it as map.yaml and map.pgm for later navigation.
+
+[![Watch the video](https://img.youtube.com/vi/nRwBee8jbWs/0.jpg)](https://www.youtube.com/watch?v=nRwBee8jbWs)
+
+
+Robot Path Planning: Navigating Obstacles to Reach the Goal
 
 A mobile robot is simulated in CoppeliaSim to navigate with obstacle avoidance using vision sensor.
 The robot then uses the A* algorithm on the environment map to plan the shortest path and successfully reach the goal.
@@ -9,7 +18,7 @@ The robot then uses the A* algorithm on the environment map to plan the shortest
 
 
 
-Project# Diff_robot_project_To_Goal
+Diff_robot_project_To_Goal
 
 In this project, a differential-drive robot is controlled by two linear PID controllers to reach a specified goal. 
 The controllers publish the robot’s linear and angular velocities based on the error.
@@ -22,7 +31,7 @@ Path of motion is displayed in Rviz2
 
 
 
-Project# Diff_robot_keyboard_move_and_publish_pose
+ Diff_robot_keyboard_move_and_publish_pose
 
 In this project, a differential-drive robot is controlled via the keyboard.
 The keyboard provides the robot’s center velocity, and the kinematic model computes and publishes the corresponding wheel joint speeds.
@@ -33,7 +42,7 @@ The movement is simulated in Gazebo, with launch files created for both the cont
 
 
 
-Project# Diff_robot_broadcast_odometry
+Diff_robot_broadcast_odometry
 
 In this project, a differential-drive robot is controlled via the keyboard. The keyboard supplies the robot’s center velocity, and the kinematic model computes and publishes the corresponding wheel joint speeds. Encoder readings are used to estimate the robot’s new position, orientation, and linear and angular velocities from changes in wheel rotation. These updated values are published as odometry and TF messages for display in RViz2.
 
