@@ -2,3 +2,13 @@ build/
 install/
 log/
 .vscode/
+# models
+*.pt
+
+# generated files
+*.gv
+*.pdf
+
+# python cache
+__pycache__/
+*.pyc
